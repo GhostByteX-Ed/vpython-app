@@ -6,7 +6,7 @@ height = 600    # Height of the screen (units)
 screen_res = (width, height)
 port_number = 8080
 # Create the scene
-scene = canvas(port=8888, width=width, height=height, center=vector(0, 0, 0), background=color.black)
+scene = canvas(port=8080, width=width, height=height, center=vector(0, 0, 0), background=color.black)
 # Create the ball object
 ball = sphere(pos=vector(100, 100, 0), radius=40, color=color.red)
 # Random initial velocity of the ball
